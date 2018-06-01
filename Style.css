@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700i');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 18000px){
+    /* Navbar + menu full screen */
+
+    .header{
+    background-color: #F76F6F;
+    width: 100%;
+    height: 60px;
+    }
+    .logo{
+        padding-top: 15px;
+        width: 50%;
+        height: 30px;
+        float: left;
+    }
+    .logo p{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+    /* Hamburguer menu with css/jquery */
+    .menu-toggle{
+        height: 100%;
+        float: right;
+        padding-right: 18px;
+        padding-top: 10px;
+    }
+    .menu-toggle span{
+        outline: none;
+        color: white;
+        cursor: pointer;
+        font-size: 35px;
+    }
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #F76F6F;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }   
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlay a:hover, .overlay a:focus {
+        color: #ffffff;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: -10px;
+        right: 18px;
+        font-size: 60px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+            }
+    }
+    /* Fim do navbar + menu full screen */
+
+    .slide-area{
+        background-color: brown;
+        width: 100%;
+        height: 250px;
+    }
+    .slide-area span p{
+        padding-top:100px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .faixa-marcas{
+        margin-top: 30px;
+        height: 55px;
+        width: 100%;
+    }
+    .faixa-marcas p{
+        color:#F76F6F;
+        margin-left: 30px;
+        width: 180px;
+        border-bottom: 5px solid #F76F6F;
+        font-size: 25px; 
+        text-align: justify; 
+    }
+    .box-marcas{ margin-top: 15px;}
+    .box-marcas > .box1{
+        float: left;
+        width: 50%;
+        height: 100px;
+        background-color: beige;
+    }
+    .box-marcas > .box2{
+        float: right;
+        width: 50%;
+        height: 100px;
+        background-color: rgb(47, 47, 240);
+    }
+    .box-marcas > .box3{
+        float: left;
+        width: 50%;
+        height: 100px;
+        background-color: rgb(77, 77, 19);
+    }
+    .box-marcas > .box4{
+        float: right;
+        width: 50%;
+        height: 100px;
+        background-color: rgb(211, 6, 143);
+    }
+}
