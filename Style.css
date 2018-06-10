@@ -25,7 +25,9 @@
         font-size: 25px;
         color: white;
     }
+
     /* Hamburguer menu with css/jquery */
+
     .menu-toggle{
         height: 100%;
         float: right;
@@ -87,6 +89,11 @@
     }
     /* Fim do navbar + menu full screen */
 
+    /*
+
+            Area para por anunciou de colecao / inverno / verao 
+
+    */
     .slide-area{
         background-color: brown;
         width: 100%;
@@ -99,6 +106,18 @@
         text-align: center;
     }
     
+    /*
+
+        Fim da area para por anunciou de colecao / inverno / verao 
+
+    */
+
+    /*
+
+        Titulo da secao + box de logos das marcas. 
+
+    */
+
     .faixa-marcas{
         margin-top: 30px;
         height: 55px;
@@ -112,18 +131,25 @@
         font-size: 25px; 
         text-align: justify; 
     }
-    .box-marcas{ margin-top: 15px;}
+    .box-marcas{
+        margin-top: 5px; 
+        height: auto; 
+        background-color: violet; 
+        width: auto;
+        padding: 15px; 
+        display: flow-root;
+    }
     .box-marcas > .box1{
         float: left;
         width: 50%;
         height: 100px;
-        background-color: beige;
+        background-color: #F76F6F;
     }
     .box-marcas > .box2{
         float: right;
         width: 50%;
         height: 100px;
-        background-color: rgb(47, 47, 240);
+        background-color: blue;
     }
     .box-marcas > .box3{
         float: left;
@@ -137,4 +163,26 @@
         height: 100px;
         background-color: rgb(211, 6, 143);
     }
+
+    /*
+
+        fim do titulo da secao + box de logos das marcas. 
+
+    */
+
+    /*
+
+        Area de novos produtos adicionados. 
+
+    */
+    .faixa-produtos{ margin-top: 5%; }
+    .faixa-produtos p{
+        color:#F76F6F;
+        margin-left: 30px;
+        width: 180px;
+        border-bottom: 5px solid #F76F6F;
+        font-size: 25px; 
+        text-align: justify;
+    }
+
 }
